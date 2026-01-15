@@ -189,6 +189,7 @@ def generate_detailed_pdf():
     output_filename = 'SAD_CCS_Detailed_Architecture.pdf'
     pdf.output(output_filename)
     print(f"PDF generado exitosamente: {output_filename}")
+    
 
 if __name__ == '__main__':
     generate_detailed_pdf()
